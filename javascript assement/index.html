@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assement</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="index.js" defer></script>
+<body>
+    <header>
+        <div class="style-filter">        
+            <img src="asset/images/filter.png" alt="filter" srcset="" class="status-img">
+            <select id="status-filter" class="status-text">
+               
+            <option value="">Status</option>
+            <option value="Open" >Open</option>
+            <option value="Error">Error</option>
+            <option value="Success">Success</option>
+            <option value="Inactive">Inactive</option>
+        </select>
+    </div>
+
+   
+        <button id="addCustomer" class="add-customer-button"> <img src="asset/images/status.png" alt="filter" srcset="" class="add-customer-img">Add customer</button>
+    
+    </header>
+    <main>
+    <form method="POST" onsubmit="event.preventDefault()">
+        
+        <div class="label-first">
+    
+            <div class="label-name">
+
+          
+        <label for="name" class="label-name-text">NAME</label>
+        <div class="label-name-div">
+        <input type="text" id="name" placeholder="Enter Name"  class="label-name-input">
+    </div>
+    </div >
+    <div class="label-descrption">
+         <label for="description" class="label-descrption-text">DESCRIPTION</label>
+         <div class="label-descrption-div">
+        <input type="text" id="description" placeholder="Enter Description" class="label-descrptiion-input">
+        </div>
+    </div>
+        <div class="label-status">
+        <label for="status" class="label-status-text">STATUS</label>
+        <div class="label-status-div">
+        <select id="status" class="label-status-select">
+            <option value="">Select Status</option>
+            <option value="Open">Open</option>
+            <option value="Error">Error</option>
+            <option value="Success">Success</option>
+            <option value="Inactive">Inactive</option>
+        </select>
+        </div>
+    </div>
+    </div>
+    <div class="label-second">
+        <div class="label-rate">
+    
+            <label for="rate" class="label-rate-text">RATE</label>
+            <div class="label-rate-div">
+        <input type="text" id="rate" placeholder="Enter Rate" class="label-rate-input">
+    </div>
+        
+    </div>
+    <div class="label-balance">
+        <label for="balance" class="label-balance-text">BALANACE</label>
+        <div class="label-balance-div">
+        <input type="text" id="balance" placeholder="Enter Balance" class="label-balance-input" >
+    </div>
+    </div>
+    <div class="label-deposit">
+    <label for="deposit" class="label-deposit-text">DEPOSIT</label>
+    <div class="label-deposit-div">
+    <input type="text" id="deposit" placeholder="Enter Deposit" class="label-deposit-input" >
+</div>
+</div>
+    </div> 
+    <div class="button-update">     
+        <div class="cancel-div">    
+        <button id="cancel" class="cancel">Cancel</button>
+    </div>
+    <div class="save-div">   
+         <button id="save" class="save">Save </button>
+    </div>
+    <div class="update-div">   
+        <button id="update" class="update-btn">Update </button>
+   </div>
+        </div>
+
+    </form>
+    
+</main>
+    <div class="table-container">
+    <table class="table" class="table-container">
+
+    </table>
+</div>
+
+</table>
+</body>
+</html>

@@ -1,0 +1,138 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "customer": [
+    {
+      "name": "Pawan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua",
+      "status": "Success",
+      "rate": "5000",
+      "balance": "5000",
+      "deposit": "55555",
+      "id": 3
+    },
+    {
+      "name": "Sohan",
+      "description": "lorem text data",
+      "status": "Error",
+      "rate": "5000",
+      "balance": "600",
+      "deposit": "77777",
+      "id": 4
+    },
+    {
+      "name": "sunil",
+      "description": "loreum",
+      "status": "Success",
+      "rate": "567",
+      "balance": "78877",
+      "deposit": "6666",
+      "id": 5
+    },
+    {
+      "name": "Raman",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua",
+      "status": "Error",
+      "rate": "5000",
+      "balance": "5000",
+      "deposit": "55555",
+      "id": 6
+    },
+    {
+      "name": "Saman",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua",
+      "status": "Error",
+      "rate": "5000",
+      "balance": "50000",
+      "deposit": "55555",
+      "id": 7
+    },
+    {
+      "name": "User",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua",
+      "status": "Error",
+      "rate": "5000",
+      "balance": "5000",
+      "deposit": "55555",
+      "id": 8
+    },
+    {
+      "name": "Pawans",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua",
+      "status": "Success",
+      "rate": "5000",
+      "balance": "5000",
+      "deposit": "55555",
+      "id": 9
+    },
+    {
+      "name": "Veer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua",
+      "status": "Success",
+      "rate": "5000",
+      "balance": "5000",
+      "deposit": "55555",
+      "id": 10
+    },
+    {
+      "name": "Surajss",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua",
+      "status": "Success",
+      "rate": "5000",
+      "balance": "5000",
+      "deposit": "55555",
+      "id": 11
+    },
+    {
+      "name": "aaaaa",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua",
+      "status": "Open",
+      "rate": "5000",
+      "balance": "5000",
+      "deposit": "55555",
+      "id": 12
+    },
+    {
+      "name": "pawan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua",
+      "status": "Error",
+      "rate": "5000",
+      "balance": "5000",
+      "deposit": "55555",
+      "id": 13
+    },
+    {
+      "name": "pawans",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua",
+      "status": "Error",
+      "rate": "5000",
+      "balance": "5000",
+      "deposit": "55555",
+      "id": 14
+    },
+    {
+      "name": "pawanss",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua",
+      "status": "Error",
+      "rate": "5000",
+      "balance": "5000",
+      "deposit": "55555",
+      "id": 15
+    }
+  ]
+}
